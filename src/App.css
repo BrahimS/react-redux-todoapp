@@ -1,0 +1,26 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: rgb(168, 152, 224);
+}
+.app_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  padding: 1em 2em;
+  background: rgb(16, 102, 105);
+  width: 50vw;
+  height: 600px;
+}
+
+.app_todoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+}
